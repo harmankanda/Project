@@ -4,10 +4,10 @@
 class project2
 	
 {
-	public $server = "";
-	public $username = "";
+	public $server = "localhost";
+	public $username = "root";
 	public $password = "";
-	public $dbname = "";
+	public $dbname = "final_project";
 	public $connectdb;
 	
 	function __construct()
