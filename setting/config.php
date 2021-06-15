@@ -4,6 +4,10 @@
 class project2
 	
 {
+		$db = parse_url(getenv("DATABASE_URL"));
+$db["path"] = ltrim($db["path"], "/");
+
+var_dump($db['path']);die();
 	public $server = "localhost";
 	public $username = "root";
 	public $password = "";
