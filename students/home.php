@@ -91,7 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<li><a href="#section-2" class="icon-cup"><i class="lnr lnr-lighter"></i> <span>Change Password</span></a></li>
 											<li><a href="#section-3" class="icon-food"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <span>Teachers</span></a></li>
 											<li><a href="#section-4" class="icon-lab"><i class="fa fa-flask"></i> <span>Subject</span></a></li>
-											<li><a href="#section-5" class="icon-truck"> <span>Results</span></a></li>
+											<li><a href="#section-5" class="icon-truck"> <span>Performance</span></a></li>
 										</ul>
 									</nav>
 									<div class="content tab">
@@ -243,8 +243,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																		<tr> 
 																			<th>#</th> 
 																	 
-																			<th>Teacher Name</th> 
-																			<th>Subject</th>
+																			<th>Opted Subject</th>
 																			
 																		</tr> 
 																	</thead> 
@@ -259,7 +258,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																		<tr>
 																			<th scope="row"><?php echo $sn; ?></th>
 																		
-																			<td><?php echo ucwords($t_info['t_fullname']); ?></td> 
 																			<td><?php echo ucwords($t_info['subject_name']); ?></td> 
 																			
 																		</tr> 
@@ -271,14 +269,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</section>
 										<section id="section-5">
 											<div class="mediabox">
-
+												<strong>Performance:</strong>
+												<p><strong>Ravi Unknown has done an extra-ordinary performance during his course. He has successfully completed his Java and C++ course. Also, He had made several projects using both of these languages.</strong></p>
 											</div>
 											<div class="mediabox">
-
+												<p><a href="Certificate.pdf">Download Your Certificate</a></p>
 											</div>
-											<div class="mediabox">
-
-											</div>
+											
 										</section>
 									</div>
 									<!-- /content -->
